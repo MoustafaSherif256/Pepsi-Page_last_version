@@ -42,7 +42,7 @@ i {
   width: 600px;
   animation: pulse 1s ease-out infinite;
   position: absolute;
-  left: 150px;
+  left: 60px;
 }
 
 .content-text {
@@ -79,18 +79,14 @@ i {
 @keyframes pulse {
   0% {
     width: 500px;
-    left: 310px;
-
+    left: 100px;
   }
   50% {
     width: 600px;
-    left: 150px;
-    right: 100px;
-
+    left: 60px;
   }
   100% {
     width: 500px;
-    left: 310px;
-
+    left: 100px;
   }
 }
